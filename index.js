@@ -1,5 +1,6 @@
 'use strict'
-
+var Analytics = require('analytics-node');
+var analytics = new Analytics('zsnvdTAMs5Zdgza11tdbCRQSPZcgcE8s');
 const assert = require('assert')
 const removeSlash = require('remove-trailing-slash')
 const looselyValidate = require('@segment/loosely-validate-event')
